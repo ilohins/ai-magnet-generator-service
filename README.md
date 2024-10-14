@@ -11,9 +11,9 @@ The application set up to run on gpt-4.0-mini model (cheapest available at the t
 
 # How to install
 1) Set up you API key as environmental variable OPENAI_API_KEY
-NOTE: you could use any other variables if you update application.properties
-2) Build and run the project as a Java application
-3) Application will test API key on startup by printing "Application startup joke"
+   * NOTE: you could use any other variables if you update application.properties
+3) Build and run the project as a Java application
+4) Application will test API key on startup by printing "Application startup joke"
 
 # CURL command example
 curl -X POST localhost:15501/vg/generate/10
