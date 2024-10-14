@@ -1,18 +1,18 @@
 # ai-magnet-generator-service
-This project is designed to utilize AI to generate a meaningful test data for any of your applications.
+This project uses OPEN AI to generate a meaningful test data for your applications. Initial version allows you to generate two value records on a specific topic. Details should be provided through application property file.
 
-# Frameworks
+# Frameworks used
 - Spring Boot WEB
 - Spring AI
 
 # Prerequesties
-You need to set up Open AI API account. Unfortunately, it's not free. 
-The application set up to run on gpt-4.0-mini model (cheapest available at the time)
+In the current version of the application, the user must have Open AI API account to generate OPENAI API key to access the service. Unfortunately, it's not free.
 
 # How to install
-1) Set up you API key as environmental variable OPENAI_API_KEY
-   * NOTE: you could use any other variables if you update application.properties
-3) Build and run the project as a Java application
+1) Set up your API key as an environment variable OPENAI_API_KEY
+   * or update application.properties accordingly
+2) Build the project with MAVEN build
+3) Run the application as Java application
 4) Application will test API key on startup by printing "Application startup joke"
 
 # CURL command example
